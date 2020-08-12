@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navigation bar  */
+.navigationbar{
+    display: flex;  /* make elements of class in a row */
+    background-color: rgb(59, 59, 59);
+
+}
+
+.icon{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon img{
+    width: 43%;
+    border: 2px solid white;
+    border-radius: 55px;
+
+
+}
+.lnavigation{
+    /* background-color:black; */
+    width: 50%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.lnavigation li{
+    list-style: none;
+    padding: 26px 23px;
+
+}
+
+.lnavigation li a{
+    text-decoration: none;
+    color: white;
+
+
+}
+.lnavigation li a:hover{
+    color: gray;
+}
+
+.rnavigation{
+    /* background-color: brown; */
+    width: 50%;
+    text-align: right;
+
+}
+
+#search{
+    padding: 8px;
+    border: 2px solid gray;
+}
+/* who we are  */
+
+.bg{
+    background: rgba(0,0,0,0.7) url('i3.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.h1{
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.weare{
+    height: 16em;
+
+}
