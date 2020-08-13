@@ -7,6 +7,12 @@
 .navigationbar{
     display: flex;  /* make elements of class in a row */
     background-color: rgb(59, 59, 59);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+    position: sticky;  /*STICKING NAVIGATION BAR*/
+    top:0;
+    cursor: pointer;
 
 }
 
@@ -89,9 +95,11 @@ button{
 /* ist section */
 
 .isection{
+    height: 100vh;
     
 }
 .box{
+    height: 35em;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -100,21 +108,29 @@ button{
 }
 
 .lefthalf{
-    width: 80%;
+    width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; 
+    padding-bottom: 57px;
+    padding-left: 76px;
 }
 
 .righthalf{
-    width: 44%;
+    width: 50%;
 
 }
 
-.rhalfimg{
+.righthalf img{
     height: 50%;
     padding-top: 90px;
-    padding-right: 174px;
-    padding-left: 87px;
 
+} 
+
+.textB{
+    font-size: 30px;
+}
+
+.textS{
+    font-size: 18px;
 }
