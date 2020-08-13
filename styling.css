@@ -53,12 +53,14 @@
     text-align: right;
 
 }
-
+button{
+    background-color: whitesmoke;
+}
 #search{
     padding: 8px;
     border: 2px solid gray;
 }
-/* who we are  */
+/* Poster section  */
 
 .bg{
     background: rgba(0,0,0,0.7) url('i3.jpg');
@@ -74,5 +76,45 @@
 }
 .weare{
     height: 16em;
+
+}
+.h2{
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+/* ist section */
+
+.isection{
+    
+}
+.box{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.lefthalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.righthalf{
+    width: 44%;
+
+}
+
+.rhalfimg{
+    height: 50%;
+    padding-top: 90px;
+    padding-right: 174px;
+    padding-left: 87px;
 
 }
