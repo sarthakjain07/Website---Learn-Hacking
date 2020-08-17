@@ -115,7 +115,7 @@
 /* ist section */
 
 .isection{
-    height: 100vh;
+    height: 27em;
     
 }
 .box{
@@ -171,3 +171,18 @@
     color: black;
 
 }
+
+/* II section */
+.iisection{
+    background-color: black;
+    color: cornsilk;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.iiimg img{
+
+}
+
