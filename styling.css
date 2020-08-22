@@ -7,13 +7,13 @@
 /* navigation bar  */
 .navigationbar{
     display: flex;  /* make elements of class in a row */
-    background-color: rgb(59, 59, 59);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-items: center;
     justify-content: center;
     position: sticky;  /*STICKING NAVIGATION BAR*/
     top:0;
     cursor: pointer;
+    background-color: rgb(59, 59, 59);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
@@ -47,6 +47,8 @@
 .lnavigation li a{
     text-decoration: none;
     color: white;
+    FONT-SIZE: 20px;
+
 
 
 }
@@ -179,6 +181,7 @@
 .iisection{
     height: 32em;
     background-color: black;
+    opacity: 0.9;
     color: cornsilk;
     display: flex;
     align-items: center;
@@ -188,7 +191,7 @@
 .iisectionmiddle{
     height: 32em;
     background-color: black;
-    opacity: 0.9;
+
     color: cornsilk;
     display: flex;
     align-items: center;
@@ -217,3 +220,51 @@
     flex-direction: row-reverse;
 }
 
+/* contact section */
+
+
+
+.iii-contact{
+    background-color: rgb(221, 217, 214);
+    height: 600px;
+}
+.texttransform{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 34px;
+}
+.iii-info{
+    max-width: 500px;
+    margin: 25px auto;
+}
+
+.iii-info input{
+    padding: 5px 2px;
+    width: 100%;
+    font-size: 20px;
+    border: 2px solid grey;
+    border-radius: 7px;
+    margin: 14px 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+.iii-info textarea{
+    padding: 5px 2px;
+    width: 100%;
+    font-size: 20px;
+    border: 2px solid grey;
+    border-radius: 7px;
+    margin: 14px 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+        
+}
+.iii-info button{
+    padding: 5px 2px;
+    width: 100%;
+    font-size: 20px;
+    border: 2px solid grey;
+    border-radius: 7px;
+    margin: 14px 0px;
+}
